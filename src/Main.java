@@ -1,5 +1,4 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1");
@@ -23,9 +22,8 @@ public class Main {
             System.out.println("Установите облегченную версию приложения на Android по ссылке.");}
         else if ((clientOsTwo == 0) && (clientDeviceYear < 2015)) {
             System.out.println("Установите более облегченную версию приложения на IOS по ссылке.");}
-
-        System.out.println();
-        System.out.println("Задача 3");
+            System.out.println();
+            System.out.println("Задача 3");
 
         var year = 2024;
         var yearPerc = year % 4;
@@ -56,23 +54,23 @@ public class Main {
             case 1:
             case 2:
                 System.out.println("Сезон: зима");
-                break;
+            break;
             case 3:
             case 4:
             case 5:
                 System.out.println("Сезон: весна");
-                break;
+            break;
             case 6:
             case 7:
             case 8:
                 System.out.println("Сезон: лето");
-                break;
+            break;
             case 9:
             case 10:
             case 11:
                 System.out.println("Сезон: осень");
-                break;
+            break;
             default:
                 System.out.println("Такого месяца нет");}
     }
-    }
+}
